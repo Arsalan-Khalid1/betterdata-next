@@ -1,9 +1,13 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
@@ -32,7 +36,6 @@
 .description {
   text-align: center;
 }
-
 
 .description {
   line-height: 1.5;
@@ -81,6 +84,10 @@
 
 .logo {
   height: 1em;
+}
+
+.me_4 {
+  margin-right: 12px;
 }
 
 @media (max-width: 600px) {
